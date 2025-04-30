@@ -1,0 +1,360 @@
+/* Add to style.css */
+
+/* TourHeader */
+.city-tour-text100 {
+  font-size: 48px;
+  font-family: STIX Two Text;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--dl-color-default-maindark);
+}
+
+.city-tour-frame38,
+.city-tour-frame391,
+.city-tour-frame40 {
+  display: flex;
+  gap: var(--dl-layout-space-unit);
+  align-items: center;
+}
+
+.city-tour-vector10,
+.city-tour-star110,
+.city-tour-star210,
+.city-tour-star310,
+.city-tour-star410,
+.city-tour-star510 {
+  width: 20px;
+  height: 20px;
+}
+
+.city-tour-text101,
+.city-tour-text102 {
+  font-size: 16px;
+  font-family: Noto Sans;
+  line-height: 1.5;
+  color: var(--dl-color-default-dark60);
+}
+
+.city-tour-rectangle190 {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: var(--dl-layout-radius-imageradius);
+}
+
+/* ReviewsContainer */
+.city-tour-group314,
+.city-tour-group315,
+.city-tour-group316,
+.city-tour-group317,
+.city-tour-group318 {
+  padding: var(--dl-layout-space-unit);
+  border-bottom: 1px solid var(--dl-color-default-dark10border);
+}
+
+.city-tour-rectangle181,
+.city-tour-rectangle182,
+.city-tour-rectangle183,
+.city-tour-rectangle184,
+.city-tour-rectangle185 {
+  width: 100%;
+  height: 1px;
+  background-color: var(--dl-color-default-dark10border);
+  margin: var(--dl-layout-space-unit) 0;
+}
+
+.city-tour-text161 {
+  display: block;
+  text-align: center;
+  color: var(--dl-color-theme-primary1);
+  font-size: 16px;
+  cursor: pointer;
+  margin: var(--dl-layout-space-unit) 0;
+}
+
+/* BookingForm */
+.booking-form {
+  padding: var(--dl-layout-space-twounits);
+  border: 1px solid var(--dl-color-default-dark10border);
+  border-radius: var(--dl-layout-radius-cardradius);
+  background-color: var(--dl-color-theme-neutral-light);
+}
+
+.booking-form-title {
+  font-size: 35px;
+  font-family: STIX Two Text;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.booking-form-price {
+  font-size: 18px;
+  font-family: Noto Sans;
+  line-height: 1.5;
+  color: #22c55e; /* Custom color for price */
+}
+
+.booking-form-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dl-layout-space-halfunit);
+}
+
+.booking-form-field label {
+  font-size: 16px;
+  font-family: Noto Sans;
+  color: var(--dl-color-default-dark60);
+}
+
+.booking-form-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--dl-layout-space-halfunit);
+  border: 1px solid var(--dl-color-default-dark10border);
+  border-radius: var(--dl-layout-radius-inputradius);
+}
+
+.booking-form-input span {
+  font-size: 16px;
+  font-family: Noto Sans;
+}
+
+.booking-form-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.booking-form-confirm {
+  padding: var(--dl-layout-space-unit);
+  background-color: var(--dl-color-theme-primary1);
+  color: var(--dl-color-theme-secondary1);
+  border: none;
+  border-radius: var(--dl-layout-radius-buttonradius);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.booking-form-confirm:hover {
+  background-color: var(--dl-color-theme-primary2);
+}
+
+.booking-form-actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dl-layout-space-unit);
+  margin-top: var(--dl-layout-space-unit);
+}
+
+.booking-form-action {
+  display: flex;
+  align-items: center;
+  gap: var(--dl-layout-space-halfunit);
+  cursor: pointer;
+}
+
+.booking-form-action-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.booking-form-divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--dl-color-default-dark10border);
+  margin: var(--dl-layout-space-unit) 0;
+}
+
+.booking-form-subtotal {
+  font-size: 18px;
+  font-family: Noto Sans;
+  font-weight: 600;
+}
+
+/* TourDetails */
+.city-tour-group477 {
+  padding: var(--dl-layout-space-twounits);
+  border: 1px solid var(--dl-color-default-dark10border);
+  border-radius: var(--dl-layout-radius-cardradius);
+  background-color: var(--dl-color-theme-neutral-light);
+  display: flex;
+  flex-direction: column;
+  gap: var(--dl-layout-space-twounits);
+}
+
+.city-tour-text186,
+.city-tour-text187,
+.city-tour-text188,
+.city-tour-text189,
+.city-tour-text190,
+.city-tour-text191,
+.city-tour-text228,
+.city-tour-text229,
+.city-tour-text230,
+.city-tour-text231 {
+  font-size: 26px;
+  font-family: STIX Two Text;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.city-tour-text192,
+.city-tour-text203,
+.city-tour-text211,
+.city-tour-text219,
+.city-tour-text232,
+.city-tour-text236,
+.city-tour-text237,
+.city-tour-text238 {
+  font-size: 16px;
+  font-family: Noto Sans;
+  line-height: 1.5;
+  color: var(--dl-color-default-dark60);
+}
+
+.city-tour-group4151,
+.city-tour-group4152,
+.city-tour-group4153,
+.city-tour-group4154 {
+  display: flex;
+  gap: var(--dl-layout-space-halfunit);
+  margin-top: var(--dl-layout-space-unit);
+}
+
+.city-tour-ellipse621,
+.city-tour-ellipse622,
+.city-tour-ellipse623,
+.city-tour-ellipse624,
+.city-tour-ellipse625 {
+  width: 8px;
+  height: 8px;
+  background-color: var(--dl-color-default-dark60);
+  border-radius: 50%;
+}
+
+.city-tour-rectangle206,
+.city-tour-rectangle207,
+.city-tour-rectangle208,
+.city-tour-rectangle209 {
+  width: 100%;
+  height: 1px;
+  background-color: var(--dl-color-default-dark10border);
+  margin: var(--dl-layout-space-unit) 0;
+}
+
+.city-tour-text239 {
+  color: var(--dl-color-theme-primary1);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* RelatedToursContainer */
+.city-tour-group426 {
+  margin: var(--dl-layout-space-twounits) 0;
+}
+
+.city-tour-group424,
+.city-tour-group425 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--dl-layout-space-unit);
+}
+
+.city-tour-text268,
+.city-tour-text297 {
+  font-size: 26px;
+  font-family: STIX Two Text;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.city-tour-group211,
+.city-tour-group423 {
+  display: flex;
+  gap: var(--dl-layout-space-halfunit);
+}
+
+.city-tour-ellipse571,
+.city-tour-ellipse581,
+.city-tour-ellipse572,
+.city-tour-ellipse582 {
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--dl-color-default-dark60);
+  border-radius: 50%;
+}
+
+.city-tour-vector36,
+.city-tour-vector37,
+.city-tour-vector50,
+.city-tour-vector51 {
+  width: 16px;
+  height: 16px;
+}
+
+.city-tour-group288,
+.city-tour-group422 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--dl-layout-space-twounits);
+}
+
+.city-tour-rectangle210,
+.city-tour-rectangle211,
+.city-tour-rectangle212 {
+  width: 100%;
+  height: 1px;
+  background-color: var(--dl-color-default-dark10border);
+  margin: var(--dl-layout-space-twounits) 0;
+}
+
+/* Footer and Navigation */
+.city-tour-frame466 {
+  padding: var(--dl-layout-space-twounits);
+  background-color: var(--dl-color-theme-neutral-light);
+  border-top: 1px solid var(--dl-color-default-dark10border);
+}
+
+.city-tour-text326 {
+  font-size: 26px;
+  font-family: STIX Two Text;
+  font-weight: 600;
+  line-height: 1.5;
+  display: block;
+  margin-bottom: var(--dl-layout-space-unit);
+}
+
+.city-tour-frame464 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city-tour-frame16 {
+  display: flex;
+  gap: var(--dl-layout-space-unit);
+}
+
+.city-tour-text327,
+.city-tour-text328,
+.city-tour-text329,
+.city-tour-text330,
+.city-tour-text331,
+.city-tour-text332 {
+  font-size: 16px;
+  font-family: Noto Sans;
+  color: var(--dl-color-theme-primary1);
+  cursor: pointer;
+}
+
+.city-tour-text332 {
+  border: 1px solid var(--dl-color-theme-primary1);
+  padding: var(--dl-layout-space-halfunit) var(--dl-layout-space-unit);
+  border-radius: var(--dl-layout-radius-buttonradius);
+}
+
+.city-tour-text332:hover {
+  background-color: var(--dl-color-theme-primary1);
+  color: var(--dl-color-theme-secondary1);
+}
